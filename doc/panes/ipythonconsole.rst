@@ -83,7 +83,7 @@ You can also change the name of the current :guilabel:`IPython console` tab with
 Using external kernels
 ======================
 
-You can connect to external local and remote kernels (including those managed by Jupyter Notebook or QtConsole) through the :guilabel:`Connect to an existing kernel` dialog under the :guilabel:`Consoles` menu.
+You can connect to external local and remote kernels (including those managed by Jupiter Notebook or QtConsole) through the :guilabel:`Connect to an existing kernel` dialog under the :guilabel:`Consoles` menu.
 For this feature to work, a compatible version of the ``spyder-kernels`` package :ref:`must be installed <starting-kernel-problems-ref>` in the environment or machine in which the external kernel is running.
 
 .. image:: /images/console/console-menu.png
@@ -93,16 +93,16 @@ For this feature to work, a compatible version of the ``spyder-kernels`` package
 Connect to a local kernel
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To connect to a local kernel that is already running (e.g. one started by Jupyter notebook),
+To connect to a local kernel that is already running (e.g. one started by Jupiter notebook),
 
-#. Run ``%connect_info`` in the notebook or console you want to connect to, and copy the name of its kernel connection file, shown after ``jupyter <app> --existing``.
+#. Run ``%connect_info`` in the notebook or console you want to connect to, and copy the name of its kernel connection file, shown after ``jupiter <app> --existing``.
 
    .. image:: /images/console/console-connect-local-step1.gif
-      :alt: Running connect_info in a Jupyter notebook
+      :alt: Running connect_info in a Jupiter notebook
 
 #. In Spyder, click :guilabel:`Connect to an existing kernel` from the :guilabel:`Consoles` menu, and paste the name of the :guilabel:`Connection file` from the previous step.
 
-   As a convenience, kernel ID numbers (e.g. ``1234``) entered in the connection file path field will be expanded to the full path of the file, i.e. :file:`{jupyter/runtime/dir/path}/kernal-{id}.json`.
+   As a convenience, kernel ID numbers (e.g. ``1234``) entered in the connection file path field will be expanded to the full path of the file, i.e. :file:`{jupiter/runtime/dir/path}/kernal-{id}.json`.
 
    .. image:: /images/console/console-connect-local-step2.gif
       :alt: Copying the connection filename into Spyder's dialog
@@ -123,9 +123,9 @@ To connect to a kernel on a remote machine,
    .. image:: /images/console/console-connect-remote-step1.gif
       :alt: Staring a Spyder kernel on a remote machine
 
-#. Copy the kernel's connection file (:file:`{jupyter/runtime/dir/path}/kernel-{pid}.json`) to the machine you're running Spyder on.
+#. Copy the kernel's connection file (:file:`{jupiter/runtime/dir/path}/kernel-{pid}.json`) to the machine you're running Spyder on.
 
-   You can get :file:`{jupyter/runtime/dir/path}` by executing ``jupyter --runtime-dir`` in the same Python environment as the kernel.
+   You can get :file:`{jupiter/runtime/dir/path}` by executing ``jupiter --runtime-dir`` in the same Python environment as the kernel.
    Usually, the connection file you are looking for will be one of the newest in this directory, corresponding to the time you started the external kernel.
 
    .. image:: /images/console/console-connect-remote-step2.gif
@@ -133,7 +133,7 @@ To connect to a kernel on a remote machine,
 
 #. Click :guilabel:`Connect to an existing kernel` from the :guilabel:`Consoles` menu, and browse for or enter the path to the connection file from the previous step.
 
-   As a convenience, kernel ID numbers (e.g. ``1234``) entered in the connection file path field will be expanded to :file:`{jupyter/runtime/dir/path}/kernal-{id}.json` on your local machine, if you've copied the connection file there.
+   As a convenience, kernel ID numbers (e.g. ``1234``) entered in the connection file path field will be expanded to :file:`{jupiter/runtime/dir/path}/kernal-{id}.json` on your local machine, if you've copied the connection file there.
 
    .. image:: /images/console/console-connect-remote-step3.gif
       :alt: Opening the connect to kernel dialog and browsing for the path

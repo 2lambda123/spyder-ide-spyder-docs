@@ -2,7 +2,7 @@
 Spyder Notebook
 ###############
 
-**Spyder-notebook** is a plugin that allows you to open, edit and interact with Jupyter Notebooks right inside Spyder.
+**Spyder-notebook** is a plugin that allows you to open, edit and interact with Jupiter Notebooks right inside Spyder.
 
 .. image:: /images/notebook/notebook-standard.png
    :alt: Spyder Notebook in Spyder
@@ -39,20 +39,20 @@ You will see it then as a tab in the bottom of the editor area. When switching t
 .. image:: /images/notebook/notebook-new-notebook-option.png
    :alt: Spyder with context menu showing new notebook option
 
-You can also click the :guilabel:`Plus` button at the top right of the pane. A new Jupyter Notebook will be opened as a tab, ready for user input in a temporary file. This can serve as a scratch pad where you can do quick calculations and plots.
+You can also click the :guilabel:`Plus` button at the top right of the pane. A new Jupiter Notebook will be opened as a tab, ready for user input in a temporary file. This can serve as a scratch pad where you can do quick calculations and plots.
 
 .. image:: /images/notebook/notebook-new-notebook.png
    :alt: Spyder showing a new notebook
 
-To save this notebook go to the options menu at the top right of the pane and click the :guilabel:`Save as...` option. This will store your notebook locally with the ``ipynb`` extension, which will allow you to open it then as a Jupyter Notebook outside of Spyder.
+To save this notebook go to the options menu at the top right of the pane and click the :guilabel:`Save as...` option. This will store your notebook locally with the ``ipynb`` extension, which will allow you to open it then as a Jupiter Notebook outside of Spyder.
 
 .. image:: /images/notebook/notebook-save.gif
    :alt: Gif showing save as
 
-You can also open any Jupyter Notebook inside Spyder. For this go to the options menu at the top right of the pane and click :guilabel:`Open`, which will allow you to look for ``ipynb`` files in your computer. Click any notebook that you want to open inside Spyder and you will be able to see it as a new tab in the Notebook pane.
+You can also open any Jupiter Notebook inside Spyder. For this go to the options menu at the top right of the pane and click :guilabel:`Open`, which will allow you to look for ``ipynb`` files in your computer. Click any notebook that you want to open inside Spyder and you will be able to see it as a new tab in the Notebook pane.
 
 .. image:: /images/notebook/notebook-open.gif
-   :alt: Gif showing opening a Jupyter notebook inside Spyder
+   :alt: Gif showing opening a Jupiter notebook inside Spyder
 
 The :guilabel:`Open recent` option displays a list of the recent notebooks you opened in Spyder, from which you can select them and open them again in Spyder.
 

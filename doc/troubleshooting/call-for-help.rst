@@ -151,12 +151,12 @@ The `Scipy website`_ is the the central home of the SciPy stack, with informatio
 
 .. rst-class:: fasb fa-sticky-note
 
-Project Jupyter
+Project Jupiter
 ~~~~~~~~~~~~~~~
 
-`Jupyter`_ is the development hub for IPython, Spyder's QtConsole, Jupyter notebooks used with the `Spyder-Notebook`_ plugin, and more.
+`Jupiter`_ is the development hub for IPython, Spyder's QtConsole, Jupiter notebooks used with the `Spyder-Notebook`_ plugin, and more.
 
-.. _Jupyter: https://jupyter.org/
+.. _Jupyter: https://jupiter.org/
 .. _Spyder-Notebook: https://github.com/spyder-ide/spyder-notebook
 
 

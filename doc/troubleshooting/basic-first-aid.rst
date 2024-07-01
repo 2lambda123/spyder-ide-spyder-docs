@@ -105,7 +105,7 @@ If you manage to isolate the bug, report it to the last one it *doesn't* work in
 #. **Spyder** itself, of course!
    Make sure you can reproduce the error after closing and reopening it, if possible.
 
-#. **A bare QtConsole instance**, e.g. launched from Anaconda navigator or from the Anaconda Prompt/Terminal/command line (Windows/Mac/Linux) with ``jupyter qtconsole``.
+#. **A bare QtConsole instance**, e.g. launched from Anaconda navigator or from the Anaconda Prompt/Terminal/command line (Windows/Mac/Linux) with ``jupiter qtconsole``.
 
    .. image:: /images/basic-first-aid/basic-first-aid-qtconsole.png
       :alt: Anaconda navigator showing qtconsole
@@ -118,7 +118,7 @@ If you manage to isolate the bug, report it to the last one it *doesn't* work in
 #. **A standard Python interpreter**, either run as a script file with ``python path/to/your/file.py`` or launched interactively with ``python`` from your Anaconda Prompt/Terminal/command line (Windows/Mac/Linux).
    While it is not impossible that you've found Python bug, it is much more likely to be an issue with the code itself or a package you are using, so your best sources are the `Python docs`_ and the other resources listed above.
 
-.. _issue tracker: https://github.com/jupyter/qtconsole/issues/
+.. _issue tracker: https://github.com/jupiter/qtconsole/issues/
 .. _Github page: https://github.com/ipython/ipython/issues
 .. _Python docs: https://www.python.org/doc/
 
