@@ -84,7 +84,7 @@ On macOS, open the disk image and drag Spyder to your :guilabel:`Applications` f
 
 .. note::
 
-   "Lite" versions of both installers are also available from the `releases page`_, which are somewhat smaller than the full installers.
+   "Light" versions of both installers are also available from the `releases page`_, which are somewhat smaller than the full installers.
    These lack a number of optional but recommended dependencies, such as NumPy, SciPy and Pandas, meaning that a few :doc:`/panes/variableexplorer` features, including graphical data import wizards and support for rich display and editing of NumPy arrays and Pandas DataFrames, will not be available.
    Given this only saves a modest amount of space while missing out on significant features, we recommend using the full installers unless minimizing download/install size and memory usage is a priority.
 
