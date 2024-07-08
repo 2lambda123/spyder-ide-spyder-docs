@@ -141,7 +141,7 @@ repos:
     exclude: '\bworkshops\b'
 
 - repo: https://github.com/pycqa/pylint
-  rev: v3.2.4
+  rev: v3.2.5
   hooks:
   - id: pylint
     name: Lint Python with Pylint
