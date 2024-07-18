@@ -82,7 +82,7 @@ repos:
 
 # Pretty-format INI
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.13.0
+  rev: v2.14.0
   hooks:
   - id: pretty-format-ini
     name: Format INI
@@ -91,7 +91,7 @@ repos:
 
 # Lint and fix JavaScript
 - repo: https://github.com/eslint/eslint
-  rev: v9.6.0
+  rev: v9.7.0
   hooks:
   - id: eslint
     name: Lint and fix JavaScript (ESLint)
@@ -185,7 +185,7 @@ repos:
 
 # Pretty-format YAML
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.13.0
+  rev: v2.14.0
   hooks:
   - id: pretty-format-yaml
     name: Format YAML
