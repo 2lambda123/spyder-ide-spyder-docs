@@ -36,6 +36,7 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
+
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/spyder-ide-spyder-docs](https://github.com/2lambda123/spyder-ide-spyder-docs)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |11<br/>Tools used|02/29/24 <br/>Report generated|
@@ -43,6 +44,7 @@ Full tech stack [here](/techstack.md)
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'>
@@ -72,6 +74,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (4)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
@@ -109,6 +112,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (1)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg' alt='Netlify'>
@@ -122,6 +126,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## Other (2)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'>

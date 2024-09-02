@@ -9,8 +9,7 @@ branch: master
 detected_tools_count: 11
 tools:
 - name: JavaScript
-  description: Lightweight, interpreted, object-oriented language with first-class
-    functions
+  description: Lightweight, interpreted, object-oriented language with first-class functions
   website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
   open_source: true
   hosted_saas: false
@@ -20,7 +19,7 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs/blob/master/doc/_static/js/driver.min.js
   detection_source: doc/_static/js/driver.min.js
   last_updated_by: C.A.M. Gerlach
-  last_updated_on: 2020-08-14 01:50:04.000000000 Z
+  last_updated_on: 2020-08-14 01:50:04+00:00
 - name: Jinja
   description: Full featured template engine for Python
   website_url: https://palletsprojects.com/p/jinja/
@@ -33,10 +32,9 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs/blob/master/requirements-conda.txt
   detection_source: requirements-conda.txt
   last_updated_by: C.A.M. Gerlach
-  last_updated_on: 2022-04-26 04:53:10.000000000 Z
+  last_updated_on: 2022-04-26 04:53:10+00:00
 - name: Python
-  description: A clear and powerful object-oriented programming language, comparable
-    to Perl, Ruby, Scheme, or Java.
+  description: A clear and powerful object-oriented programming language, comparable to Perl, Ruby, Scheme, or Java.
   website_url: https://www.python.org
   open_source: true
   hosted_saas: false
@@ -66,7 +64,7 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs/blob/master/.github/workflows/build.yaml
   detection_source: ".github/workflows/build.yaml"
   last_updated_by: C.A.M. Gerlach
-  last_updated_on: 2022-07-28 05:26:15.000000000 Z
+  last_updated_on: 2022-07-28 05:26:15+00:00
 - name: PyPI
   description: A repository of software for the Python programming language
   website_url: https://pypi.org/
@@ -78,7 +76,7 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs/blob/master/requirements-conda.txt
   detection_source: requirements-conda.txt
   last_updated_by: C.A.M. Gerlach
-  last_updated_on: 2022-04-26 04:53:10.000000000 Z
+  last_updated_on: 2022-04-26 04:53:10+00:00
 - name: pre-commit
   description: A slightly improved pre-commit hook for git
   website_url: http://jish.github.io/pre-commit/
@@ -91,10 +89,9 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs/blob/master/requirements-conda.txt
   detection_source: requirements-conda.txt
   last_updated_by: C.A.M. Gerlach
-  last_updated_on: 2022-07-28 04:48:13.000000000 Z
+  last_updated_on: 2022-07-28 04:48:13+00:00
 - name: Netlify
-  description: Build, deploy and host your static site or app with a drag and drop
-    interface and automatic delpoys from GitHub or Bitbucket
+  description: Build, deploy and host your static site or app with a drag and drop interface and automatic deploys from GitHub or Bitbucket
   website_url: https://www.netlify.com/
   open_source: false
   hosted_saas: true
@@ -104,10 +101,9 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs/blob/master/netlify.toml
   detection_source: netlify.toml
   last_updated_by: C.A.M. Gerlach
-  last_updated_on: 2021-04-13 23:07:12.000000000 Z
+  last_updated_on: 2021-04-13 23:07:12+00:00
 - name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
+  description: A shell is a text-based terminal, used for manipulating programs and files. Shell scripts typically manage program execution.
   website_url: https://en.wikipedia.org/wiki/Shell_script
   open_source: false
   hosted_saas: false
@@ -117,8 +113,7 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs
   detection_source: Repo Metadata
 - name: Sphinx
-  description: Open source full text search server, designed from the ground up with
-    performance, relevance (aka search quality), and integration simplicity in mind
+  description: Open source full text search server, designed from the ground up with performance, relevance (aka search quality), and integration simplicity in mind
   website_url: http://sphinxsearch.com/
   open_source: false
   hosted_saas: false
@@ -128,7 +123,7 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs/blob/master/requirements-conda.txt
   detection_source: requirements-conda.txt
   last_updated_by: C.A.M. Gerlach
-  last_updated_on: 2022-04-26 04:53:10.000000000 Z
+  last_updated_on: 2022-04-26 04:53:10+00:00
 - name: MarkupSafe
   description: Safely add untrusted strings to HTML/XML markup
   package_url: https://pypi.org/project/MarkupSafe
@@ -141,4 +136,4 @@ tools:
   detection_source_url: https://github.com/2lambda123/spyder-ide-spyder-docs/blob/master/requirements-conda.txt
   detection_source: requirements-conda.txt
   last_updated_by: C.A.M. Gerlach
-  last_updated_on: 2022-04-26 04:53:10.000000000 Z
+  last_updated_on: 2022-04-26 04:53:10+00:00
