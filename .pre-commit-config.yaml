@@ -6,7 +6,7 @@ minimum_pre_commit_version: '2.8.2'
 default_language_version:
   python: python3
 
-default_stages: [commit]
+default_stages: [Nonepre-commitNone]
 
 exclude: '\.min\.(js|css)$'
 
@@ -19,7 +19,7 @@ repos:
 
 # General fixers
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v5.0.0
   hooks:
   - id: trailing-whitespace
     name: Trim trailing whitespace
@@ -91,7 +91,7 @@ repos:
 
 # Lint and fix JavaScript
 - repo: https://github.com/eslint/eslint
-  rev: v9.11.1
+  rev: v9.12.0
   hooks:
   - id: eslint
     name: Lint and fix JavaScript (ESLint)
@@ -104,7 +104,7 @@ repos:
 
 # Check JSON
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v5.0.0
   hooks:
   - id: check-json
     name: Check JSON
@@ -127,7 +127,7 @@ repos:
 
 # Check Python
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v5.0.0
   hooks:
   - id: check-ast
     name: Check Python AST
@@ -176,7 +176,7 @@ repos:
 
 # Check TOML and XML
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v5.0.0
   hooks:
   - id: check-toml
     name: Check TOML
@@ -194,7 +194,7 @@ repos:
 
 # Check YAML
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v5.0.0
   hooks:
   - id: check-yaml
     name: Check YAML
@@ -227,7 +227,7 @@ repos:
     name: Check for Unicode replacement chars
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v5.0.0
   hooks:
   - id: check-added-large-files
     name: Check for added large files
