@@ -91,7 +91,7 @@ repos:
 
 # Lint and fix JavaScript
 - repo: https://github.com/eslint/eslint
-  rev: v9.14.0
+  rev: v9.15.0
   hooks:
   - id: eslint
     name: Lint and fix JavaScript (ESLint)
