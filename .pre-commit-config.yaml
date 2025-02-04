@@ -46,7 +46,7 @@ repos:
 
 # Check and fix spelling
 - repo: https://github.com/codespell-project/codespell
-  rev: v2.4.0
+  rev: v2.4.1
   hooks:
   # Define separate hooks for checking and correcting spelling errors
   # since codespell doesn't print verbose output when writing changes
@@ -141,7 +141,7 @@ repos:
     exclude: '\bworkshops\b'
 
 - repo: https://github.com/pycqa/pylint
-  rev: v3.3.3
+  rev: v3.3.4
   hooks:
   - id: pylint
     name: Lint Python with Pylint
@@ -255,7 +255,7 @@ repos:
 
 # Check commit message spelling
 - repo: https://github.com/codespell-project/codespell
-  rev: v2.4.0
+  rev: v2.4.1
   hooks:
   - id: codespell
     name: Check commit message spelling
